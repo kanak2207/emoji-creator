@@ -22,41 +22,32 @@ Emoji Creator is a fun and interactive desktop application built using Python's 
 ![Screenshot 2025-05-15 005830](https://github.com/user-attachments/assets/54aff72b-6efc-4a52-84ff-a2c5d54ed6fa)
 
 
-## 🔧 Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/emoji-creator.git
-   cd emoji-creator
-2. Create a virtual environment:
-   ``bash
+## ⚙️ Installation & Running
+```bash
+git clone https://github.com/your-username/emoji-creator.git
+cd emoji-creator
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. Install required packages (if any):
-  ``bash
 pip install pillow
-4. Run the application:
-  ``bash
 python emoji_creator.py
+```
 
-Project Structure:
-emoji-creator/
-│
-├── emoji_creator.py       # Main Python file with Tkinter GUI
-├── assets/                # Folder for images/icons (if any)
-├── README.md              # Project description
-└── requirements.txt       # Optional: Python dependencies
+## 📂 Project Structure
+emoji-creator/  
+├── emoji_creator.py       # Main Python file with GUI logic  
+├── assets/                # Folder containing image parts (eyes, mouths, etc.)  
+├── README.md              # Project documentation  
+└── requirements.txt       # Dependency file (optional)  
 
-🎯 Future Improvements
---Add more facial feature options
+## 🚀 Future Improvements
+- 🕶️ Add accessories like hats, glasses, etc.  
+- 💾 Allow users to export emojis as image files  
+- 🎲 Random emoji generator  
+- 🖼️ Emoji gallery/history  
 
---Export emojis as PNG files
+## 👤 Author
+- KANAK TIWARI 
+🔗 [kanak2207](https://github.com/kanak2207)
 
---Add save/load functionality for emojis
-
-🧑‍💻 Author
-KANAK TIWARI
-https://github.com/kanak2207
-
-📝 License
+## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
